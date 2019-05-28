@@ -2,6 +2,8 @@
   "name": "openui5-sample-workOrder-app",
   "version": "0.0.1",
   "description": "Sample app for showing booking of work order with reusable promise chains",
+  "author": "Shailendra Rai <maverick083@gmail.com>",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/shailenk/ui5lab-workorder-sample.git"
@@ -22,7 +24,8 @@
     "@openui5/sap.ui.core": "^1.60.0",
     "@openui5/sap.ui.layout": "^1.65.1",
     "@openui5/themelib_sap_belize": "^1.60.0",
-    "grunt-cli": "^1.3.2"
+    "grunt-cli": "^1.3.2",
+    "express": "^4.16.1"
   },
   "devDependencies": {
     "@ui5/cli": "^1.2.0",
