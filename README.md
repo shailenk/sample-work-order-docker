@@ -44,6 +44,14 @@ Follow [Dockerizing a Node.js web app](https://nodejs.org/de/docs/guides/nodejs-
 
 There are 2 ways i have tried:
 ### Docker Deployement with dist folder only.
+To use this, first you need to run the command for self-contained build.
+#### Steps to create self contained build:
+1. ```rm -rf ./dist```
+2. ```npm install --global @ui5/cli```
+3. ```npm install --global serve@6```
+4. ```ui5 build self-contained -a```
+
+Step 4 creates a new dist folder, which will be copied to docker contained during build steps below:
 1. Create container: ```docker build -t <your username>/sampleapp .```
 2. Check in images: ```docker images``` you should see 2 containers, one for node and another for sampleapp.
 3. Run ```docker run -p 49160:5000 -d <your username>/sampleapp``` to host your application on your port 49160.
