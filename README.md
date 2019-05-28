@@ -68,9 +68,9 @@ $ docker logs <container id>
 
 accessible on http://localhost:49160/test-resources/com/samples/SampleWorkOrder.html of your machine.
 #### Enter the container
-$ docker exec -it <container id> /bin/bash
+```$ docker exec -it <container id> /bin/bash```
 
-###Useful Docker commands:
+### Useful Docker commands:
 kill all running containers with ```docker kill $(docker ps -q)```
 
 delete all stopped containers with ```docker rm $(docker ps -a -q)```
