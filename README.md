@@ -1,15 +1,3 @@
-# ui5lab-workorder-sample
-Work order application sample for ui5lab
-
-![UI5Lab Logo](https://raw.githubusercontent.com/UI5Lab/UI5Lab-central/master/docs/media/UI5LabLogoPhoenix.png)
-
-# What is it
-
-UI5Lab is a community driven repository for UI5 Custom Control Libraries. It's purpose is to make it easy for everyone to share, retrieve and use UI5 Custom Controls. Explore them in the [UI5Lab browser](https://ui5lab.io/browser). Contributions welcome!
-
-# UI5Lab-central
-This repository contains a sample application to demonstrate how promise chaining can help in code reusability of functional areas and also provides more maintainable and flexible code.    
-
 ### Setup
 
 Run the following commands to test or develop this project:
