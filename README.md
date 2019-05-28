@@ -38,7 +38,7 @@ npm run postinstall
 npm start
 ```
 
-5. Go to [http://localhost:8080/test/com/samples/SampleWorkOrder.html](http://localhost:8080/test/com/samples/SampleWorkOrder.html) to display all available UI5Lab libraries
+5. Go to [http://localhost:8080/test-resources/com/samples/SampleWorkOrder.html](http://localhost:8080/test-resources/com/samples/SampleWorkOrder.html) to display all available UI5Lab libraries
 # Docker Deployement
 Follow [Dockerizing a Node.js web app](https://nodejs.org/de/docs/guides/nodejs-docker-webapp/) to do the needed setup. I have done on windows machine. I have already created the needed dockerFile, server.js, .dockerignore and package.json files. So you need to start from step: [building-your-image](https://nodejs.org/de/docs/guides/nodejs-docker-webapp/#building-your-image)
 
