@@ -18,6 +18,6 @@ COPY . .
 # add contents to folder
 #ADD src $HOME/src
 
-RUN ui5 build self-contained -a
+RUN ui5 build self-contained --exclude-task=createDebugFiles replaceCopyright --include-task=generateLibraryPreload -a
 EXPOSE 5000
 CMD [ "serve", "./dist" ]
