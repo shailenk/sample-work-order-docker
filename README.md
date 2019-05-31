@@ -4,18 +4,13 @@ Run the following commands to test or develop this project:
 
 1. Clone this repository to your local developer workspace
 ```bash
-git clone https://github.com/shailenk/sample-work-order-docker.git
-cd sample-work-order-docker
+git clone https://github.com/shailenk/openui5-sample-workorder-docker.git
+cd openui5-sample-workorder-docker
 ```
 
 2. Load npm dependencies without running their individual scripts
 ```bash
-npm install --ignore-scripts
-```
-
-3. Copy all files to the correct places and adjust bootstrap to CDN
-```bash
-npm run postinstall
+npm install
 ```
 
 > *Note:* to test the deployment that is triggered via Travis call `npm run deploy`. All resources for deployment will be put in a subfolder `deploy`.
@@ -37,7 +32,7 @@ To use this, first you need to run the command for self-contained build.
 1. ```rm -rf ./dist```
 2. ```npm install --global @ui5/cli```
 3. ```npm install --global serve@6```
-4. ```ui5 build self-contained -a```
+4. ```ui5 build self-contained --exclude-task=createDebugFiles replaceCopyright --include-task=generateLibraryPreload -a```
 
 Step 4 creates a new dist folder, which will be copied to docker contained during build steps below:
 1. Create container: ```docker build -t <your username>/sampleapp .```

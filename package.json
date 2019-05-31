@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/shailenk/ui5lab-workorder-sample.git"
   },
-  "private": false,
+  "private": true,
   "scripts": {
     "start": "ui5 serve",
     "lint": "eslint webapp",
@@ -19,14 +19,13 @@
     "@openui5/sap.ui.commons": "^1.60.0",
     "@openui5/sap.ui.core": "^1.60.0",
     "@openui5/sap.ui.layout": "^1.65.1",
-    "@openui5/themelib_sap_belize": "^1.60.0",
-    "grunt-cli": "^1.3.2",
-    "express": "^4.16.1"
+    "@openui5/themelib_sap_belize": "^1.60.0"
   },
   "devDependencies": {
     "@ui5/cli": "^1.2.0",
     "eslint": "^4.19.1",
     "grunt": "^1.0.4",
+    "grunt-cli": "^1.3.2",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-connect": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
