@@ -1,0 +1,9 @@
+{
+  "libraries": [
+    "com.demo.workOrder",
+    "sap.ui.layout",
+    "sap.ui.core",
+    "sap.ui.commons",
+    "sap.m"
+  ]
+}
